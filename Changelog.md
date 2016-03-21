@@ -1,3 +1,13 @@
+<a name="v1.3.1"></a>
+## v1.3.1 (2016-03-21)
+
+
+#### Bug Fixes
+
+*   Run function in test ([37bdfc30](37bdfc30))
+
+
+
 <a name="v1.3.0"></a>
 ## v1.3.0 (2016-03-21)
 
