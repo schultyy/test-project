@@ -26,7 +26,8 @@ script:
       travis-cargo --only stable doc
 
 after_success:
-  - semantic-rs
+  - |
+      [ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_PULL_REQUEST" = "false" ] && semantic-rs
 
 env:
   global:
