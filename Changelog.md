@@ -1,3 +1,13 @@
+<a name="v1.1.1"></a>
+## v1.1.1 (2016-03-21)
+
+
+#### Bug Fixes
+
+*   Add one more rocket to really reach orbit ([f7c24cd7](f7c24cd7))
+
+
+
 <a name="v1.1.0"></a>
 ## v1.1.0 (2016-03-21)
 
