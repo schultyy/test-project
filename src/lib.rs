@@ -1,4 +1,5 @@
 pub fn hello_world() {
+    println!("   🌔");
     println!("🚀🚀🚀🚀🚀🚀🚀");
 }
 #[test]
