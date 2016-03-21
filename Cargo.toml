@@ -3,4 +3,8 @@ name = "test-project"
 version = "0.1.0"
 authors = ["Jan-Erik Rediger <janerik@fnordig.de>"]
 
+description = "Test project to play around with release management"
+repository = "https://github.com/badboy/test-project"
+license = "MIT"
+
 [dependencies]
