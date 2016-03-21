@@ -4,5 +4,6 @@ pub fn hello_world() {
 }
 #[test]
 fn it_works() {
+    hello_world();
     assert!(true);
 }
