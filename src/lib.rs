@@ -1,5 +1,5 @@
 pub fn hello_world() {
-    println!("hello world!");
+    println!("🚀🚀🚀");
 }
 #[test]
 fn it_works() {
