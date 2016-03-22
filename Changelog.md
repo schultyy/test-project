@@ -1,3 +1,13 @@
+<a name="v1.5.0"></a>
+## v1.5.0 (2016-03-22)
+
+
+#### Features
+
+*   Slowly reaching the sun ([3944aa19](3944aa19))
+
+
+
 <a name="v1.4.3"></a>
 ## v1.4.3 (2016-03-22)
 
