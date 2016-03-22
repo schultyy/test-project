@@ -14,8 +14,9 @@ rust:
 before_script:
   - |
       pip install git+https://github.com/huonw/travis-cargo --user &&
-      cargo install --git https://github.com/semantic-rs/semantic-rs &&
+      cargo install --git https://github.com/semantic-rs/semantic-rs --branch hubcaps-unwrap &&
       export PATH=$HOME/.cargo/bin:$PATH &&
+      export RUST_BACKTRACE=1 &&
       git config --global user.name semantic-rs &&
       git config --global user.email semantic@rs
 
