@@ -1,5 +1,6 @@
 pub fn hello_world() {
-    println!("☀️");
+    println!(" ☀️");
+    println!("");
     println!("   🌔");
     println!("🚀🚀🚀🚀🚀🚀🚀");
 }
