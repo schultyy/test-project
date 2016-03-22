@@ -13,7 +13,7 @@ rust:
 
 before_script:
   - |
-      pip install 'travis-cargo<0.2' --user &&
+      pip install git+https://github.com/badboy/travis-cargo@debug-output --user &&
       cargo install --git https://github.com/semantic-rs/semantic-rs --branch hubcaps-unwrap &&
       export PATH=$HOME/.cargo/bin:$PATH &&
       export RUST_BACKTRACE=1 &&
