@@ -1,3 +1,13 @@
+<a name="v1.4.2"></a>
+## v1.4.2 (2016-03-22)
+
+
+#### Bug Fixes
+
+*   Sun is really far away, though the moon is a bit further as well ([21e285dd](21e285dd))
+
+
+
 <a name="v1.4.1"></a>
 ## v1.4.1 (2016-03-22)
 
