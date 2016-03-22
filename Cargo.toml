@@ -1,6 +1,6 @@
 [package]
 name = "test-project"
-version = "1.5.0"
+version = "1.5.1"
 authors = ["Jan-Erik Rediger <janerik@fnordig.de>"]
 
 description = "Test project to play around with release management"
