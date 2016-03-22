@@ -1,6 +1,6 @@
 pub fn hello_world() {
     println!(" ☀️");
-    println!("\n\n\n\n\n");
+    println!("\n\n\n");
     println!("   🌔");
     println!("");
     println!("🚀🚀🚀🚀🚀🚀🚀");
