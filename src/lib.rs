@@ -6,6 +6,10 @@ pub fn hello_world() {
     println!("🚀🚀🚀🚀🚀🚀🚀");
 }
 
+pub fn math() {
+    println!("eᵢᵀDΦ⁻¹(0)ᵀD²h(x̄)DΦ⁻¹(0)eⱼ");
+}
+
 pub fn emojis() {
     println!("🎉 🔖 ✨ 🐛");
 }
