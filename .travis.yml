@@ -17,7 +17,8 @@ rust:
 before_script:
   - |
       pip install 'travis-cargo<0.2' --user &&
-      cargo install --git https://github.com/semantic-rs/semantic-rs --branch after-all --debug &&
+      cargo uninstall semantic-rs ;
+      cargo install --git https://github.com/semantic-rs/semantic-rs --debug &&
       export PATH=$HOME/.cargo/bin:$PATH &&
       export RUST_BACKTRACE=1 &&
       git config --global user.name semantic-rs &&
@@ -31,7 +32,7 @@ script:
 
 after_success:
   - |
-      [ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_PULL_REQUEST" = "false" ] && RUST_LOG=debug semantic-rs
+      RUST_LOG=debug semantic-rs
 
 env:
   global:
